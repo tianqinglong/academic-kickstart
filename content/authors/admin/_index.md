@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Qinglong Tian
 
 # Username (this should match the folder name)
 authors:
@@ -63,6 +63,4 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
+I am a fifth year PhD student in Department of Statistics, Iowa State University.
