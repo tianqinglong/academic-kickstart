@@ -18,7 +18,7 @@ organizations:
   url: "https://www.stat.iastate.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a PhD Candidate in Statistics.
 
 interests:
 - Reliability
@@ -64,3 +64,4 @@ email: ""
 # - Visitors
 ---
 I am a fifth year PhD student in Department of Statistics, Iowa State University.
+My major professors are Dr. William Meeker and Dr. Daniel Nordman.
