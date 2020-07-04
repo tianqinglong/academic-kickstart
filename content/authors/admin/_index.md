@@ -29,7 +29,7 @@ education:
   courses:
   - course: MSc in Statistics
     institution: Iowa State University
-    year: 2012
+    year: 2019
   - course: BSc in Statistics
     institution: Renmin University of China
     year: 2016
