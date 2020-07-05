@@ -18,7 +18,7 @@ organizations:
   url: "https://www.stat.iastate.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a PhD Candidate in Statistics.
+bio: 今天吃点啥？
 
 interests:
 - Reliability
