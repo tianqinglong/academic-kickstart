@@ -50,7 +50,7 @@ root.right = TreeNode(3)
 root.left.left = TreeNode(4) 
 root.left.right = TreeNode(5) 
 
-dfsInorder(root)
+# dfsInorder(root)
 # dfsPreorder(root)
 # dfsPosorder(root)
 ```
