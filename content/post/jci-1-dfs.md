@@ -93,6 +93,7 @@ In this problem, the extra information is the minimum steps ahead to reach a lea
 
 104\. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
+
 #### 112. [Path Sum](https://leetcode.com/problems/path-sum/)
 
 DFS is very handy tool to traverse all the paths in the tree. In this example, the output of the recursive function is ``True`` or``False``. 
@@ -118,6 +119,7 @@ def hasPathSum(self, root: TreeNode, sum: int) -> bool:
 ```
 
 Unlike the previous example, we need to include __an extra argument__ to record the status and pass through the recursive function.
+
 
 #### 113\. [Path Sum II](https://leetcode.com/problems/path-sum-ii/)
 
@@ -147,10 +149,7 @@ def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
     _pathSum(root, sum, curList, totalList)
     return totalList
 ```
-
-
-
-This solution is acceptable and a lot of answers in the discussion section are using this approach. However, a better solution is available [here](https://www.educative.io/courses/grokking-the-coding-interview).
+This solution is acceptable and a lot of answers in the discussion section are using this approach. However, a better solution using __backtracking__ is available [here](https://www.educative.io/courses/grokking-the-coding-interview).
 
 In this problem, we do not need the recursive function to return anything. The list ``totalList`` takes the role as the output of the recursive function. We only need to tell the function when to stop.
 
@@ -160,13 +159,12 @@ This problem is similar, the recursive function needs __two extra arguments__, o
 
 257\. [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 
-#### 437. Path Sum III
+
+#### 437. [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
 This is an easy problem on Leetcode but it should be classified as, at least, medium.
 
 
-
-About
 
 -----
 
