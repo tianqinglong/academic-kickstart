@@ -21,16 +21,16 @@ Recursive function is almost always used to implement the DFS algorithm. If the 
 The Python code for traversing a binary tree is given below and by changing the order of the ``print`` function, there are three different ways: inorder, preorder, and posorder. If you are confused with the name, just remember that the prefix indicates where the ``print`` function is.
 ```{python}
 class TreeNode:
-	def __init__(self, val=0, left=None, right=None):
-  	self.val = val
-    self.left = left
-    self.right = right
+def __init__(self, val=0, left=None, right=None):
+	self.val = val
+	self.left = left
+	self.right = right
     
 def dfsInorder(root):
-  if root:
-    dfsInorder(root.left)
-    print(root.val)
-    dfsInorder(root.right)
+	if root:
+		dfsInorder(root.left)
+		print(root.val)
+		dfsInorder(root.right)
   
 def dfsPreorder(root):
 	if root:
