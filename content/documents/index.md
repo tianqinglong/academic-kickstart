@@ -13,4 +13,4 @@ header:
   caption: ""
   image: ""
 ---
-({{% staticref "files/prelim_slides.pdf" %}}Preliminary Oral Exam Slides{{% /staticref %}})
+{{% staticref "files/prelim_slides.pdf" %}}Preliminary Oral Exam Slides{{% /staticref %}}
