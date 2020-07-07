@@ -1,16 +1,16 @@
 ---
-title: Documents
-summary: Click to download the documents.
-date: "2020-07-06T00:00:00Z"
+title: An example title
+summary: Here we describe how to add a page to your site.
+date: "2018-06-28T00:00:00Z"
 
-reading_time: false
-share: false
-profile: false
-comments: false
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+comments: false  # Show comments?
 
+# Optional header image (relative to `static/img/` folder).
 header:
-	caption: ""
-	image: ""
+  caption: ""
+  image: ""
 ---
-
 [Download]({{% staticref "files/prelim_slides.pdf" %}}Download{{% /staticref %}})
