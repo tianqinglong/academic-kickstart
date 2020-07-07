@@ -1,7 +1,7 @@
 ---
-title: An example title
-summary: Here we describe how to add a page to your site.
-date: "2018-06-28T00:00:00Z"
+title: Download Documents
+summary: Click to download documents.
+date: "2020-07-07T00:00:00Z"
 
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?
@@ -13,4 +13,4 @@ header:
   caption: ""
   image: ""
 ---
-[Download]({{% staticref "files/prelim_slides.pdf" %}}Download{{% /staticref %}})
+({{% staticref "files/prelim_slides.pdf" %}}Preliminary Oral Exam Slides{{% /staticref %}})
