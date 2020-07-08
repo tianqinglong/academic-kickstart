@@ -1,9 +1,9 @@
 ---
-title: "Jousekis for Code Interview (1): Depth First Search (DFS)"
+title: "Jousekis for Code Interview (1): Depth First Search (DFS) for Tree"
 date: 2020-07-05T14:59:04-05:00
 draft: false
 tags: ["Code Jouseki", "Algorithm", "Interview"]
-summary: "Using DFS to Solve Coding Problems"
+summary: "Using DFS to Solve Tree Coding Problems"
 ---
 
 ## Introduction
@@ -162,12 +162,43 @@ This problem is similar, the recursive function needs __two extra arguments__, o
 
 #### 437. [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
-This is an easy problem on Leetcode but it should be classified as, at least, medium.
+This is an easy problem on Leetcode but it should be classified as, at least, medium. Personally, I think this is one of the hardest questions in this article. The difference between this problem and the previous ones is that whenever we reach a node, we look back and find out if we can find a path starting from the current node has the target sum. __Backtracking__ is needed in the recursive function.
 
+```{python}
+def _pathSum(node, target, curPath):
+    if not node:
+        return 0
+    
+    curPath.append(node.val)
+    _sum = 0
+    _count = 0
+    for i in range(len(curPath)-1, -1, -1):
+        _sum += curPath[i]
+        if _sum == target:
+            _count += 1
 
+    _count += _pathSum(node.left, target, curPath)
+    _count += _pathSum(node.right, target, curPath)
+    
+    curPath.pop()
+    return _count
+    
+def pathSum(root, sum):
+    return _pathSum(root, sum, [])
+```
+
+Here are the last two problems that are very similar.
+
+543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+124\. [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
+In these two problems, the output of the recursive function is not the answer to the problems. However, the answer to the problems is closely related to the recursive function. So, we update the answer of the problems during the recursive process.
+
+For the first question, the highest depth of the current node is ``max(leftMaxDepth, rightMaxDepth)+1``, but the quantity of interest is ``leftMaxDepth+rightMaxDepth+1``.
+
+For the second question, the output of the recursive function is ``leftMaxSum`` and ``rightMaxSum``, within the recursive function the output is ``node.val+max(max(0, leftMaxSum), max(0, rightMaxSum))``. The quantity of interest is ``node.val+max(0, leftMaxSum)+max(0, rightMaxSum)``. $\blacksquare$
 
 -----
-
-- I will keep updating this article and more examples will be added.
 
 - I made my best effort writing this article and the code I provided have been accepted by Leetcode but there is __no__ guarantee regarding the correctness.
