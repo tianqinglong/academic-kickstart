@@ -13,7 +13,7 @@ header:
   caption: ""
   image: ""
 ---
-#### {{% staticref "files/qinglong-cv.pdf" %}}CV{{% /staticref %}}
+#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}}
 
 #### 2020
 {{% staticref "files/prelim_slides.pdf" %}}Preliminary Oral Exam Slides{{% /staticref %}}
