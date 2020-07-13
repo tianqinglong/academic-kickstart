@@ -1,8 +1,8 @@
 ---
-title: "Code Interview Pattern Summary: Introduction"
+title: "Code Interview Patterns (0): Overview"
 date: 2020-07-05T14:59:11-05:00
 draft: false
-tags: ["Code Jouseki", "Algorithm", "Interview"]
+tags: ["Algorithm", "Code Interview"]
 summary: "Table of Contents"
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "Jousekis for Code Interview (2): Dynamic Programming"
+title: "Code Interview Patterns (2): Dynamic Programming"
 date: 2020-07-13T14:59:04-05:00
 draft: true
-tags: ["Code Jouseki", "Algorithm", "Interview"]
+tags: ["Algorithm", "Code Interview", "Dynamic Programming"]
 summary: "Solving Coding Problems with Dynamic Programming"
 ---
 
@@ -25,7 +25,7 @@ graph TD;
 
 The first approach uses recursive function+dictionary (hash table) and it is also called a top-down method. The second approach uses for-loop+list (array) and it is also called a bottom-up method.
 
-## Jouseki
+## Pattern
 
 The Fibonacci problem is always used for demonstration of the dynamic programming algorithms.
 

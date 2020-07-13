@@ -1,8 +1,8 @@
 ---
-title: "Jousekis for Code Interview (1): Depth First Search (DFS) for Tree"
+title: "Code Interview Patterns (1): Depth First Search (DFS) for Tree"
 date: 2020-07-05T14:59:04-05:00
 draft: false
-tags: ["Code Jouseki", "Algorithm", "Interview"]
+tags: ["Algorithm", "Code Interview", "DFS"]
 summary: "Using DFS to Solve Tree Coding Problems"
 ---
 
@@ -15,7 +15,7 @@ The purpose of the DFS algorithm is to __traverse__ the tree/graph. Here are a l
 1. Find the __connecting nodes__ that satisfy certain conditions.
 2. Find the __paths__ that satisfy certain conditions.
 
-## Jouseki
+## Pattern
 
 Recursive function is almost always used to implement the DFS algorithm. If the interviewers ask you not to use recursive function, well, you might want to use alternative algorithms.
 
@@ -58,7 +58,7 @@ root.left.right = TreeNode(5)
 
 Using recursive function to implement DFS is clean and simple. However, the power of it will be unleashed when __extra information__ is passed through the many layers of the recursive function. In the next section, we will see the derivations of the DFS Jouseki and what does __extra information__ mean.
 
-### Derivations
+## Derivations
 
 #### 111. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
