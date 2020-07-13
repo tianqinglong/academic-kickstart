@@ -72,7 +72,7 @@ To write a recursive function, the first step is to determine the base case. For
 
 If both children exist, the output given current node is ``1+min(_minDepth(node.left), _minDepth(node.right))``. Of course we need to address the other situations.
 
-```python
+```{python}
 def _minDepth(root):
     if not root.left and not root.right:
         return 1
@@ -197,7 +197,7 @@ In these two problems, the output of the recursive function is not the answer to
 
 For the first question, the highest depth of the current node is ``max(leftMaxDepth, rightMaxDepth)+1``, but the quantity of interest is ``leftMaxDepth+rightMaxDepth+1``.
 
-For the second question, the output of the recursive function is ``leftMaxSum`` and ``rightMaxSum``, within the recursive function the output is ``node.val+max(max(0, leftMaxSum), max(0, rightMaxSum))``. The quantity of interest is ``node.val+max(0, leftMaxSum)+max(0, rightMaxSum)``. $\blacksquare$
+For the second question, the output of the recursive function is ``leftMaxSum`` and ``rightMaxSum``, within the recursive function the output is ``node.val+max(max(0, leftMaxSum), max(0, rightMaxSum))``. The quantity of interest is ``node.val+max(0, leftMaxSum)+max(0, rightMaxSum)``.
 
 #### More Problems
 
