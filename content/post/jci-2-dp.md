@@ -1,7 +1,7 @@
 ---
 title: "Code Interview Patterns (2): Dynamic Programming"
 date: 2020-07-13T14:59:04-05:00
-draft: true
+draft: false
 tags: ["Algorithm", "Code Interview", "Dynamic Programming"]
 summary: "Solving Coding Problems with Dynamic Programming"
 ---

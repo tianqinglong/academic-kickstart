@@ -8,6 +8,5 @@ summary: "Table of Contents"
 
 ## Table of Contents
 
-1. [Depth First Search for Tree](https://qinglong-tian.netlify.app/post/jci-1-dfs/)
-2. 
-
+1. [Depth First Search for Tree](jci-1-dfs.md)
+2. [Dynamic Programming](jci-2-dp.md)
