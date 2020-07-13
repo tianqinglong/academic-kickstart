@@ -204,6 +204,5 @@ For the second question, the output of the recursive function is ``leftMaxSum`` 
 100\. [Same Tree](https://leetcode.com/problems/same-tree/)
 
 430\. [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
------
 
-- I made my best effort writing this article and the code I provided have been accepted by Leetcode but there is __no__ guarantee regarding the correctness.
+-----
