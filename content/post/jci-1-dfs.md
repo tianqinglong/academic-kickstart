@@ -199,8 +199,10 @@ For the first question, the highest depth of the current node is ``max(leftMaxDe
 
 For the second question, the output of the recursive function is ``leftMaxSum`` and ``rightMaxSum``, within the recursive function the output is ``node.val+max(max(0, leftMaxSum), max(0, rightMaxSum))``. The quantity of interest is ``node.val+max(0, leftMaxSum)+max(0, rightMaxSum)``. $\blacksquare$
 
-### More Problems
+#### More Problems
+
 100\. [Same Tree](https://leetcode.com/problems/same-tree/)
+
 430\. [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 -----
 
