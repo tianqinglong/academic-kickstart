@@ -19,9 +19,9 @@
   weight = 20
 
 [[main]]
-  name = "Documents"
+  name = "Downloads"
   url = "documents/"
-  weight = 45
+  weight = 55
 
 [[main]]
   name = "Contact"
