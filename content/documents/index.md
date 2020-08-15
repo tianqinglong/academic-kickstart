@@ -16,4 +16,5 @@ header:
 #### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}}
 
 #### 2020
+{{% staticref "files/JSM_presentation.pdf" %}}JSM 2020{{% /staticref %}}
 {{% staticref "files/prelim_slides.pdf" %}}Preliminary Oral Exam Slides{{% /staticref %}}
