@@ -13,8 +13,7 @@ header:
   caption: ""
   image: ""
 ---
-#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}}
-(updated on Aug 15, 2020)
+#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}} (updated on Aug 15, 2020)
 
 #### 2020
 {{% staticref "files/JSM_presentation.pdf" %}}JSM 2020{{% /staticref %}}
