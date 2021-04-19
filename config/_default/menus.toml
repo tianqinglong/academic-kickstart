@@ -19,7 +19,7 @@
   weight = 20
 
 [[main]]
-  name = "Downloads"
+  name = "CV & Downloads"
   url = "documents/"
   weight = 55
 

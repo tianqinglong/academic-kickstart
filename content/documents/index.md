@@ -13,7 +13,11 @@ header:
   caption: ""
   image: ""
 ---
-#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}} (Nov 11, 2020)
+#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}} (April, 2021)
+
+#### 2021
+
+{{% staticref "files/.pdf" %}}Final Oral Exam Slides{{% /staticref %}}
 
 #### 2020
 {{% staticref "files/JSM_presentation.pdf" %}}JSM 2020{{% /staticref %}}
