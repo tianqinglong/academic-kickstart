@@ -17,7 +17,7 @@ header:
 
 #### 2021
 
-{{% staticref "files/.pdf" %}}Final Oral Exam Slides{{% /staticref %}}
+{{% staticref "files/final_defense.pdf" %}}Final Oral Exam Slides{{% /staticref %}}
 
 #### 2020
 {{% staticref "files/JSM_presentation.pdf" %}}JSM 2020{{% /staticref %}}
