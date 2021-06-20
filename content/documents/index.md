@@ -13,7 +13,7 @@ header:
   caption: ""
   image: ""
 ---
-#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}} (April, 2021)
+#### {{% staticref "files/QinglongTian-CV.pdf" %}}CV{{% /staticref %}}
 
 #### 2021
 
