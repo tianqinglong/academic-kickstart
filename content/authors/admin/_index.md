@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Qinglong Tian
+title: Qinglong Tian (田庆隆)
 
 # Username (this should match the folder name)
 authors:
@@ -14,16 +14,16 @@ role: PhD Student in Statistics
 
 # Organizations/Affiliations
 organizations:
-- name: Iowa State Univerisity
-  url: "https://www.stat.iastate.edu/"
+- name: The University of Wisconsin-Madison
+  url: "https://biostat.wiscweb.wisc.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 今天吃点啥？
+bio: 
 
 interests:
 - Reliability
-- Predictive Inference
-- Bayesian Statistics
+- Resampling
+- Transfer Learning
 
 education:
   courses:
@@ -50,9 +50,9 @@ social:
   link: https://github.com/tianqinglong
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/QinglongTian-CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -63,5 +63,4 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-I am a fifth year PhD student in Department of Statistics, Iowa State University.
-My major professors are Dr. William Meeker and Dr. Daniel Nordman.
+I am a Research Associate at Department of Biostatistics and Medical Informatics at the University of Wisconsin-Madison. I obtained PhD in Statistics from Iowa State University, under the supervision of Professor William Meeker and Professor Daniel Nordman.
