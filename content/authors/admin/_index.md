@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Statistics
+role: Research Associate
 
 # Organizations/Affiliations
 organizations:
@@ -27,9 +27,9 @@ interests:
 
 education:
   courses:
-  - course: MSc in Statistics
+  - course: PhD in Statistics
     institution: Iowa State University
-    year: 2019
+    year: 2021
   - course: BSc in Statistics
     institution: Renmin University of China
     year: 2016
@@ -63,4 +63,4 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-I am a Research Associate at Department of Biostatistics and Medical Informatics at the University of Wisconsin-Madison. I obtained my PhD in Statistics from Iowa State University in May 2021, under the supervision of Professor William Meeker and Professor Daniel Nordman.
+I am a Research Associate at the Department of Biostatistics and Medical Informatics at the University of Wisconsin-Madison. I obtained my PhD in Statistics from Iowa State University in May 2021, under the supervision of Professor William Meeker and Professor Daniel Nordman.
