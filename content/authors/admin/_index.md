@@ -64,3 +64,5 @@ email: ""
 # - Visitors
 ---
 I am a Research Associate at the Department of Biostatistics and Medical Informatics at the University of Wisconsin-Madison. I obtained my PhD in Statistics from Iowa State University in May 2021, under the supervision of Professor William Meeker and Professor Daniel Nordman.
+
+I will be joining the University of Waterloo as an assitant professor in fall 2020.
